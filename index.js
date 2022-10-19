@@ -19,28 +19,28 @@ function makeSound(word) {
     switch (word) {
         case 'w':
             {
-                var music = new Audio('/html/drum stick/sounds/tom-1.mp3');
+                var music = new Audio('tom-1.mp3');
                 music.play();
                 break;
 
             }
         case 'a':
             {
-                var music = new Audio('/html/drum stick/sounds/tom-2.mp3');
+                var music = new Audio('tom-2.mp3');
                 music.play();
                 break;
 
             }
         case 's':
             {
-                var music = new Audio('/html/drum stick/sounds/tom-2.mp3');
+                var music = new Audio('tom-2.mp3');
                 music.play();
                 break;
 
             }
         case 'd':
             {
-                var music = new Audio('/html/drum stick/sounds/tom-4.mp3');
+                var music = new Audio('tom-4.mp3');
                 music.play();
                 break;
 
@@ -48,7 +48,7 @@ function makeSound(word) {
 
         case 'j':
             {
-                var music = new Audio('/html/drum stick/sounds/kick-bass.mp3');
+                var music = new Audio('kick-bass.mp3');
 
                 music.play();
                 break;
@@ -57,7 +57,7 @@ function makeSound(word) {
         case 'k':
             {
 
-                var music = new Audio('/html/drum stick/sounds/crash.mp3');
+                var music = new Audio('crash.mp3');
                 music.play();
                 break;
 
@@ -65,7 +65,7 @@ function makeSound(word) {
 
         case 'l':
             {
-                var music = new Audio('/html/drum stick/sounds/snare.mp3');
+                var music = new Audio('snare.mp3');
                 music.play();
                 break;
 
